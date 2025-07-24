@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        features = "src/test/java/features",                // Path to .feature files
+        features = "classpath:features",                // Path to .feature files
         glue = "Stepdefinitions",
 
         plugin = {
